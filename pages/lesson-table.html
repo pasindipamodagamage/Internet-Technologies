@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse:collapse ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <!-- table row -->
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Contact</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Pasindi</td>
+                <td>Pamoda</td>
+                <td>22</td>
+                <td>0773793891</td>
+            </tr>
+            <tr>
+                <td>Thedanga</td>
+                <td>Gayathri</td>
+                <td>17</td>
+                <td>0772343321</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Summery</td>
+                <td>Summery</td>
+                <td>Summery</td>
+                <td>Summery</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr><hr>
+    <table style="width: 400px; text-align: center;">
+        <tbody>
+            <tr style="height: 100px;">
+                <td colspan="2">1</td>
+                <!-- <td>2</td> -->
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr style="height: 100px;">
+                <td>5</td>
+                <td colspan="2">6</td>
+                <!-- <td>7</td> -->
+                <td>8</td>
+            </tr>
+            <tr style="height: 100px;">
+                <td>9</td>
+                <td colspan="3">10</td>
+                <!-- <td>11</td>
+                <td>12</td> -->
+            </tr>
+            <tr style="height: 100px;">
+                <td colspan="4">13</td>
+                <!-- <td>14</td>
+                <td>15</td>
+                <td>16</td> -->
+            </tr>
+        </tbody>
+    </table>
+    <hr><hr>
+    <table style="width: 400px; text-align: center;">
+        <tbody>
+            <tr style="height: 100px;">
+                <td rowspan="2">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr style="height: 100px;">
+                <!-- <td>5</td> -->
+                <td>6</td>
+                <td>7</td>
+                <td rowspan="3">8</td>
+            </tr>
+            <tr style="height: 100px;">
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <!-- <td>12</td> -->
+            </tr>
+            <tr style="height: 100px;">
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <!-- <td>16</td> -->
+            </tr>
+            
+        </tbody>
+    </table>
+</body>
+</html>
