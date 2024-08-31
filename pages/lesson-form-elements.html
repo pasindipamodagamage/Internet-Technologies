@@ -12,6 +12,7 @@
     <br>
 
     <!-- input -->
+    <!-- add text -->
     <br>
     <label for="firstName">FIRST NAME: </label>
     <!-- <input type="text"> -->
@@ -21,13 +22,86 @@
     maxlength="5">
     <br>
     <br>
-   
+
+   <!-- add number -->
     <label for="age">AGE: </label>
     <!-- <input type="number">
     value-->
     <input type="number" value="18">
-
+<br><br>
+<!-- add password -->
+    <label for="password"> password: </label>
+    <input type="password">
+    <br><br>
+    <!-- add date -->
+    <label for="date">date</label>
+    <input type="date">
 <!-- value ekak intialized karagena thama inne -->
+
+<!-- add radio button -->
+ <br><br>
+<label for="male"> Male </label>
+<input type="radio" name="gender">
+
+<label for="female"> Female </label>
+<input type="radio" name="gender">
+<br><br>
+
+<!-- add checkbox -->
+<label for="remember"> Remamber </label>
+<input type="checkbox" name="remember">
+
+<!-- file upload -->
+ <br><br>
+<input type="file" name="file">
+
+<br><br>
+<!-- drop down list -->
+<select name="technology" id="tech">
+    <option value="java">Java</option>
+    <option value="java">JavaScript</option>
+    <option value="java">Python</option>
+    <option value="java">Css</option>
     
+</select>
+
+<br><br>
+<!-- feild set and legend -->
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName" name="firstName">
+    <label for="lastName">Last Name</label>
+    <input type="text" id="lastName" name="lastName">
+</fieldset>
+
+<!-- text area -->
+ <br> <br>
+ <textarea name="message" id="message" 
+ placeholder="Enter message here"
+ rows="20"
+ cols="50">
+ </textarea>
+
+ <!-- Buttons -->
+  <br><br>
+  <!-- buttons walat alert add krnnth puluwn -->
+ <button type="button" onclick="alert('hello')">click here</button>
+ <!-- <button>mema thibbm komth type eka buttonm thama</button> -->
+ <button type="submit">submit</button>
+
+ <form action="">
+<br><br>
+<label for="username">username</label>
+<input type="text" name="username" required>
+<label for="password">password</label>
+<input type="password" name="password" required>
+<br>
+<button type="submit">Submit</button>
+
+<!-- required meka demmam fil krl neththn error enw submit kraddi -->
+
+</form>
+
 </body>
 </html>
