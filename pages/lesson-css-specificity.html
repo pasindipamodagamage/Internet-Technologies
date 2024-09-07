@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css specificity //selector priority</title>
+    <style>
+      #main-content {
+        background-color: green;
+      }
+
+      p {
+        background-color: red;
+      }
+
+      .content {
+        background-color: blue;
+      }
+
+      div p {
+        background-color: teal;
+      }
+
+      div .content {
+        background-color: pink;
+      }
+
+      div #main-content {
+        background-color: purple;
+      }
+
+      #card #main-content {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container" id="card">
+      <p class="content" id="main-content" style="background-color: yellow">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum amet
+        voluptatem doloremque magnam suscipit? Commodi, sunt. Corrupti
+        repudiandae, laboriosam dignissimos iure rem debitis excepturi, minus
+        aliquam alias dolorem vitae labore voluptates sapiente adipisci quod
+        omnis! Laudantium, libero illum quo odio corporis qui facilis cumque
+        unde neque? Sapiente fugiat iure fuga.
+      </p>
+
+      <!-- inline selector
+      id---------id selector
+      class----------class /psudo class selector
+      internal ------element /psudo element selector
+       -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectoers css</title>
+    <style>
+      /* h2 {
+        color: red;
+         element selector - same elements in the html doc are applied 
+      }
+
+      .text {
+        color: blue;
+      }
+
+      #main-para {
+        color: green;
+      }
+
+      a[target="_blank"] {
+        color: cyan;
+      }
+
+      div p {
+        color: cornflowerblue;
+      }
+
+      ul {
+        list-style-type: armenian;
+      }
+      Lorem,
+      ipsum dolor. h2 + p {
+        color: blue;
+        /* lagama inna sibling t 
+      }
+
+      h1 ~ p {
+        color: darkcyan;
+      } */
+
+      li:first-child {
+        color: rebeccapurple;
+      }
+
+      li:last-child {
+        color: green;
+      }
+
+      li:nth-child(2) {
+        color: orange;
+      }
+
+      li:nth-child(even) {
+        color: orange;
+      }
+
+      ul:hover {
+        background-color: rgb(206, 206, 126);
+      }
+
+      p::first-letter {
+        font-size: 50px;
+      }
+
+      p::first-line {
+        color: brown;
+      }
+
+      p::before {
+        content: "before ";
+        color: coral;
+      }
+
+      p::after {
+        content: " after";
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1.element selector -->
+    <h2>hello word</h2>
+
+    <!-- 2.class selector -->
+    <p>
+      <!-- text kiyanne dipu nama -->
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nihil
+      similique
+      <span class="text"> quaerat! Omnis, ullam. Natus recusandae</span> in
+      dolorem accusantium dolores rem, ex maxime assumenda, culpa vero corrupti
+      dignissimos saepe ab.
+    </p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="text">Lorem ipsum dolor sit amet.</p>
+    <!-- class name eka one tharam use krnna puluwn..... onema element ekaka eg:- text
+     ethakot apply wenw -->
+
+    <!-- 3.id selector -->
+    <p id="main-para">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam maiores
+      labore quo ab asperiores distinctio et rerum minus consectetur quibusdam.
+    </p>
+
+    <!-- 4.attribute selector -->
+    <a href="https://www.google.com" target="_blank">google</a>
+
+    <!-- 5.descendant selector -->
+    <p>hi there!!!!!</p>
+
+    <div>
+      <p>one</p>
+      <p>two</p>
+      <p>three</p>
+    </div>
+
+    <!-- 6. child selection  -->
+    <ul>
+      <li>java</li>
+      <li>html</li>
+      <li>css</li>
+    </ul>
+
+    <!-- 7.adjacent sibling selector(+) -->
+    <h2>hi</h2>
+    <p>hi</p>
+    <p>hi</p>
+
+    <!-- 8.genaral sibling selector  (~)-->
+    <h1>main</h1>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem, ipsum dolor.</p>
+    <div>
+      <p>not applied</p>
+    </div>
+
+    <!-- 9.psudo class selector (:)-->
+    <ul>
+      <li>java</li>
+      <li>html</li>
+      <li>css</li>
+    </ul>
+
+    <!-- 10.psudo element Selectoers (::)-->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ad
+      itaque omnis quaerat mollitia sunt aperiam, accusantium molestiae rem
+      officia suscipit architecto ipsam excepturi recusandae cumque nemo
+      explicabo sit tempora?
+    </p>
+
+    <!-- 11.grouping selector -->
+    <h1>heading 1</h1>
+    <h2>hedding 2</h2>
+    <h3>heading 3</h3>
+    <!-- 5 6 7 8 are ----------css combinates
+     css treversing-------------- html doc ekaka thiyena eliment ekakat style ekak add krganna
+     adal element eka allagannone neh
+     e allaganna process eka tha treversing kiyanne
+     e kiynne css selectors use krla css ekak html element ekakat add krgannw kiyneka thama -->
+  </body>
+</html>
