@@ -1,0 +1,9 @@
+img {
+  width: 150px;
+  height: 200px;
+  object-fit: fit;
+  text-align: center;
+  /* float: left; */
+  float: right;
+  margin-left: 10px;
+}

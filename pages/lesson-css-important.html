@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson-css-important</title>
+    <style>
+      h1 {
+        color: yellow !important;
+      }
+
+      #main-title .title {
+        color: orange;
+      }
+      div h1 {
+        color: green;
+      }
+
+      #main-title {
+        color: red;
+      }
+
+      .title {
+        color: purple;
+      }
+
+      #container #main-title {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- !importamt priority eka high krnna use karana flag ekak -->
+    <div id="container">
+      <h1 id="main-title" class="title" style="color: white">css importamt</h1>
+      <!-- css wala debug krganna amarui  -->
+      <!-- css wla complex eka wedi wenw  -->
+      <!-- library ekakin mokakhri awoth style ekak eka rewrite krnw itpasse eke 
+       priority eka anuw important use krnw  -->
+    </div>
+  </body>
+
+  <!-- 
+  css cascading style stylesheet
+  cascading means css conflicts resolve krnn gnn set of rules tika
+  mona style eka use krnwd kiyl ena cofused eka thama conflicts 
+  browser ekt komad monad apply krnnnone kiyl selrct krgann hadapu rules tika ki
+  
+  
+  keyfactory priority
+  1. !important - priority eka manualy denw
+  2. specificity - class id element double element wage selectors walin hdpu rule set eka
+  3. source order - code eke thiyena order eka
+  -->
+</html>

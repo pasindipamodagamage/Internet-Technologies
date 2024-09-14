@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  border: 1px solid red;
+  width: 600px;
+  height: 300px;
+  margin: 12px;
+  padding: 12px;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: cornsilk;
+  border: 1px solid black;
+  margin: 16px;
+  padding: 12px;
+}

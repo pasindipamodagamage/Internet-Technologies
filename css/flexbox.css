@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+}
+
+/* .box-set {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+} */
+
+#align {
+  margin-top: 12px;
+  margin-left: 82px;
+  font-size: 105px;
+}
+
+#box-one {
+  background-color: lightsalmon;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#box-two {
+  background-color: lightgreen;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#box-three {
+  background-color: lightblue;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+#box-four {
+  background-color: lightpink;
+
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.box-set {
+  display: flex;
+  height: 96vh;
+  border: 4px solid red;
+  /* flex-direction: row; by default fles derection is row  row widiyt hadanw*/
+  /* flex-direction: row-reverse; row widiyt reverse krnw 4 to 1*/
+  /* flex-direction: column; coloumn widiyt*/
+  /* flex-direction: column-reverse; buttons tika 4 to 1 wage hadala right side krnw*/
+  /* direction eka thiras , row, main axists nm justify-conetnt 
+ema neththn cross axists
+*/
+
+  /* ======================================= */
+  /* it have two axists main and cross axist */
+  /* mewa weda krnne main axist true  vertical */
+  /* justify-content: flex-start; default beheviour buttons tika verticle gnnw eka lagat left side eken*/
+  /* justify-content: flex-end; buttons tika right ekat gannw */
+  /* justify-content: center; buttons tika medata gannw*/
+  /* justify-content: space-between; buttons athara space thiyagannw depeththte spaces nethuw  */
+  /* justify-content: space-around; buttons athara space thiyagannw depeththte spaces ekka  */
+  /* justify-content: space-evenly; spaces okkom samanw thiyagnnw  */
+
+  /* ==================================== */
+  /* meka weda krnne cross axist true horizontal*/
+  /* align-items: stretch; default value eka */
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; buttons tika page eke yatatama*/
+  /* align-items: center; page eke meda left side coner  */
+
+  /* flex-direction: column; */
+  /* flex direction eka thiyena peththat thami main axist eka  */
+
+  /* flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+  /* ================================== */
+  flex-direction: row;
+  /* flex-wrap: nowrap; default behaviour */
+  flex-wrap: wrap;
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  align-content: space-evenly;
+  /* flex-wrap: wrap-reverse; */
+}
