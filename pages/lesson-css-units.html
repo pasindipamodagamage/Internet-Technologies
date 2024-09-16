@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: lightgoldenrodyellow;
+        border: 1px solid yellow;
+        border-radius: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css units</h1>
+    =======1.pixels (px)================
+    <br />smallest unit
+    <p style="font-size: 36px">Hey There!!!! I am px</p>
+
+    =========2.centimeters (cm)=====
+    <div style="width: 5cm; height: 5cm; border: 5px solid black">
+      Hey There!!!! I am cm
+    </div>
+
+    ========3.mm (mm)=========
+    <div
+      style="
+        width: 50mm;
+        height: 50mm;
+        background-color: lightslategray;
+        border: 2px solid purple;
+      "
+    ></div>
+
+    ===========4. inches (in)============
+    <div style="width: 2in; height: 2in; background-color: lightseagreen"></div>
+
+    ===========5.percentage (%)========
+    <br />parent element eken % ganak thama ganne
+    <div style="width: 50%; height: 30px; background-color: purple">
+      <div style="width: 50%; height: 30px; background-color: aqua"></div>
+    </div>
+
+    ==========6. em=============
+    <br />parent ge size eka thama em point eka widiyat ganne <br />parent
+    neththn root element eken thama size eka ganne
+    <div style="font-size: 9px">
+      <p style="font-size: 1em">hi</p>
+      <p style="font-size: 1.5em">hi</p>
+      <p style="font-size: 2em">hi</p>
+    </div>
+
+    ========7.rem=============
+    <br />
+    root element size eka gannw
+    <br />
+    root eke font size ekak defined krla neththn browser eke font size eka
+    difined wenw methanay
+    <br />brwser eken font size wenas kroth me unit eka nisa ewa okkom px walt
+    convert krnanw px wage dunnanam font wens weddi browser eke convert krath px
+    px l m thama
+    <div style="font-size: 9px">
+      <p style="font-size: 1rem">what's up</p>
+      <p style="font-size: 1.5rem">what's up</p>
+      <p style="font-size: 2rem">what's up</p>
+    </div>
+
+    ============8. viewport width=======
+    <br />
+    viewport eke width eka wens krddi wens wenw mekedi <br />
+    width eka adjest karagannw browser eka minimize krddi ema <br />
+    1% of viewport= 1vw
+
+    <div style="background-color: chartreuse; width: 70vw; height: 40px"></div>
+    =============9.viewport height=========================
+
+    <div style="background-color: orange; width: 60px; height: 20vh"></div>
+
+    relative units
+    <ul>
+      <li>%</li>
+      <li>em</li>
+      <li>rem</li>
+      <li>vw</li>
+      <li>vh</li>
+    </ul>
+
+    absalute value
+    <ol>
+      <li>px</li>
+      <li>cm</li>
+      <li>mm</li>
+      <li>inch</li>
+    </ol>
+    =====================================================================================<br />
+    circle
+    <div class="circle"></div>
+  </body>
+</html>

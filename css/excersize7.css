@@ -1,0 +1,89 @@
+#cart-01 {
+  width: 300px;
+  height: 400px;
+  margin: 80px;
+  background-color: bisque;
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#cart-01 img {
+  width: 300px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#cart-02 img {
+  width: 300px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.container p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#cart-02 {
+  width: 300px;
+  height: 400px;
+  margin: 80px;
+  background-color: bisque;
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#cart-03 {
+  width: 300px;
+  height: 400px;
+  margin: 80px;
+  background-color: bisque;
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#cart-03 img {
+  width: 300px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#cart-04 {
+  width: 300px;
+  height: 400px;
+  margin: 80px;
+  background-color: bisque;
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#cart-04 img {
+  width: 300px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#cart-05 {
+  width: 300px;
+  height: 400px;
+  margin: 80px;
+  background-color: bisque;
+  box-shadow: 5px 5px 5px pink;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+#cart-05 img {
+  width: 300px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+}

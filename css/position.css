@@ -1,0 +1,42 @@
+.box-01 {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  /* position: static; */
+  /* default  */
+
+  /* 02.relative */
+  /* position: relative; */
+  /* top: 25px; */
+  /* left: 25px; */
+  /* inn thena idala dena values assign krgannw */
+
+  /* position: relative; */
+
+  /* මම */
+  /* 04.fixed */
+  /* position: fixed;
+  top: 20px;
+  right: 30px; */
+
+  /* 05.sticky */
+  position: sticky;
+  top: 8px;
+  left: 0;
+  /* scroll krddi web eke uda nawethila thiynw */
+}
+
+.box-02 {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+
+  /* position: relative; */
+  /* bottom: 125px; */
+
+  /* 03.Absolute */
+  /* position: absolute; */
+  /* positon eka static nowuna lagama inna parentge position eka t anuwa thamy hedenne.static nowena wena position ekak thiyena parent kenek neththn ganne view point eke posithion eka  */
+  /* top: 0px;
+  left: 0px; */
+}
